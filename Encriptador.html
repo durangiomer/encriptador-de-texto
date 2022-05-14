@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+    </head>
+    <body>
+        <header>
+            <img src="./imagenes/Vector.png" class="logo">
+        </header>
+        <main>
+        <section>
+            <textarea type="text" class="input-text" cols="30" rows="7" placeholder="Texto a encriptar/desencriptar."></textarea>
+           <h6 class="letras"> &#9888 Solo letras minusculas y sin acentos.</h6>
+           <div>
+               <button type="button" onclick="btnencriptar()" class="encriptarbtn">Encriptar</button>
+               <button type="button" onclick="btndesencriptar()" class="desencriptarbtn">Desencriptar</button>
+           </div>
+        </section>
+        <section>
+            <textarea type="text" cols="30" rows="7" class="input-text-area" placeholder="Texto encriptado / desencriptado."></textarea>
+            </textarea>
+            <button type="button" onclick="btncopiar()" class="copiarbtn">Copiar</button>
+        </section>
+        </main>
+        <footer> Elaborado por Giomer J. Duran R. 2022</footer>
+            <script src="Script.js"></script>
+    </body>
+</html>
